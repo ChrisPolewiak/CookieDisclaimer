@@ -1,0 +1,44 @@
+#cs-cookie {
+	position: absolute !important;
+	top: 100px !important;
+	left: 10px !important;
+	z-index: 100000 !important;
+	width: 250px !important;
+	height: 200px !important;
+	font-family:trebuchet, arial, helvetica !important;
+	font-size:12px !important;
+}
+#cs-cookie .cs-cookie-overlay {
+	width: 250px;
+	z-index: 100002;
+	position: absolute;
+}
+#cs-cookie .cs-cookie-body {
+	padding: 10px;
+}
+#cs-cookie .cs-cookie-title {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+}
+#cs-cookie .cs-cookie-text {
+	font-size: 12px;
+	color: #000;
+	margin: 10px 0;
+}
+#cs-cookie .cs-cookie-link {
+	color: #000;
+	font-size: 12px;
+	padding-top: 10px;
+	display: block;
+	text-align: right;
+}
+#cs-cookie .cs-cookie-bg {
+	width: 250px;
+	height: 200px;
+	background: #fff;
+	border: 1px solid black;
+	opacity: 0.8;
+	position: absolute;
+	z-index: 100001;
+}

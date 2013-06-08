@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="jquery-cookie.js"></script>
+	<script src="jquery-CookieDisclaimer.js"></script>
+
+
+</head>
+<body>
+<script>
+$().ready(function(){
+	$.sm_CookieDisclaimer({
+		cookie_var : 'DisableCookieInfo2',
+		title : 'PLIKI COOKIES',
+		text : 'Korzystając z naszej strony wyrażasz zgodę na wykorzystywanie przez nas plików cookies, w celu dostosowania się do Twoich preferencji oraz w celu zapewnienia Ci wygody podczas przeglądania strony www. Szczegóły konfiguracji plików cookie znajdziesz w ustawieniach swojej przeglądarki.',
+		link : 'zamknij',
+	});
+});
+</script>
+<style>
+body { background:#888; }
+</style>
+
+</body>
+</html>
